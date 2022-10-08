@@ -1,148 +1,138 @@
+/* regole generali */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* regole generali */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /* debug */
+    border: 3px solid black;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 /* regole header */
 header{
-    height: 550px;
     /* debug */
-    height: 550px;
+    min-height: 500px;
     background-color: cornflowerblue;
 }
 
-#top-header li, .logo, #top-header button{
-    /* debug */
-    /* background-color: white; */
+nav{
+    padding: 10px 0;
 }
 
-#top-header{
+nav div{
+    /* debug */
+    background-color: coral;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    /* debug */
+    border: 1px solid black;
+}
+
+.flex-nav{
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+}
+
+.flex-nav li{
+    padding: 0 5px;
+}
+
+.sub-header{
+    width: 60%;
+    margin: 100px auto;
     /* debug */
-    background-color: rgb(221, 67, 98);
+    background-color: coral;
 }
 
-#barra-nav{
-    display: flex;
+.sub-header{
+    text-align: center;
 }
 
-#barra-nav li{
-    padding: 0 20px;
-}
-
-.subheader{
-    width: 50%;
-    margin: 40px auto;
-    /* debug */
-    background-color: rgb(221, 67, 98);
-    height: 350px;
-}
-
-/* regole main */
-
-/* regole sezioni sfondo bianco */
-
+/* regole sections */
 
 section{
+    /* debug */
+    min-height: 400px;
     
-    /* debug */
-    border: 1px solid black;
-    /* height: 700px; */
-    background-color: rgba(198, 107, 74, 0.518);
-} 
+}
 
-.white, .grey{
+.white-bg, .reverse{
     display: flex;
-    justify-content: space-around;
-    align-items: center;  
-    width: 70%;
-    margin: 90px auto;
-} 
+    justify-content: flex-end;
+}
 
-.img-sfondo-bianco, .descrizione-sect{
-    width: 45%;
+.white-bg, .reverse, .last-section{
     /* debug */
-    background-color: rgb(221, 67, 98);
-    height: 300px;
-    border: 1px solid black;
+    margin: 30px 0;
+}
+
+.img-section, .text-section{
+    /* debug */
+    height: 350px;
     width: 40%;
-}
-
-.grey .img-sfondo-bianco{
-    order: 1;
-}
-
-.no-flex{
-    width: 70%;
-    margin: 90px auto;
-    margin-bottom: 20px;
-    /* debug */
-    height: 550px;
-}
-
-.desc-section4, .subsection{
-    background-color: darkolivegreen;
+    background-color: coral;
     border: 1px solid black;
+}
+
+.text-section{
+    margin-left: 50px;
+}
+
+.gray-bg{
+    background-color: rgb(224, 223, 223);
+}
+
+.last-section{
     text-align: center;
-    /* debug */
-    height: 100px;
 }
 
-.img-noflex{
-    height: 300px;
-    background-color: darkolivegreen;
-    margin: 20px 0 40px 0;
+.last-section img{
+    margin: 30px 0;
     /* debug */
-    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    background-color: coral ;
 }
 
 /* regole footer */
 footer{
-    background-color: rgba(0, 0, 0, 0.934);
-    height: 400px;
-    margin-top: 50px;
-}
-
-footer .col-area, footer .subfooter{
-    width: 80%;
-    margin: 0 auto;
+    background-color: black;
     /* debug */
+    min-height: 400px;
 }
 
-footer .col-area{
+.flex-footer{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid blue;
+    padding: 30px 0;
 }
 
-footer .col{
-    margin: 20px 0;
+.flex-footer div{
     /* debug */
-    width: 200px;
-    background-color: rgb(221, 67, 98);
-    height: 200px;
-    background-color: 1px solid black;
+    min-height: 300px;
+    background-color: coral;
 }
 
-.subfooter{
+.sub-footer{
     display: flex;
     justify-content: space-between;
-}
-
-footer .logo, footer button{
-    margin-top: 20px;
     /* debug */
-    width: 90px;
-    height: 30px;
-    background-color: rgb(221, 67, 98);
-}
-
-.subfooter{
-    width: 8                                                                                                                                                                                                                                                                                                                                                                                0%;
-    margin: 0 auto;
+    padding: 20px 0 50px 0;
+    color: white;
 }
