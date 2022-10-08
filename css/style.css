@@ -103,22 +103,29 @@ nav div{
 }
 
 /* regole sections */
- section{
-    /* debug */
-    margin: 50px 0;
-}
 
 .white-bg, .reverse{
     display: flex;
     justify-content: flex-end;
-    
+    padding: 80px 0;   
 }
 
 .text-section{
     width: 25%;
     padding: 30px;
+}
+
+.text-section p{
+    font-size: 16px;
+}
+
+.text-section.even{
     margin-left: 50px;
 }
+
+.text-section.odd{
+    margin-right: 50px;
+} 
 
 .text-section h2{
     font-size: 35px;
@@ -126,7 +133,7 @@ nav div{
 }
 
 .gray-bg{
-    background-color: rgb(224, 223, 223);
+    background-color: #ebe4e4;
 }
 
 .last-section{
