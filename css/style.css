@@ -101,34 +101,28 @@ nav div{
     padding: 5px 10px;
     margin-left: 10px;
 }
-/* regole sections */
 
-section{
+/* regole sections */
+ section{
     /* debug */
-    min-height: 400px;
-    
+    margin: 50px 0;
 }
 
 .white-bg, .reverse{
     display: flex;
     justify-content: flex-end;
-}
-
-.white-bg, .reverse, .last-section{
-    /* debug */
-    margin: 30px 0;
-}
-
-.img-section, .text-section{
-    /* debug */
-    height: 350px;
-    width: 40%;
-    background-color: coral;
-    border: 1px solid black;
+    
 }
 
 .text-section{
+    width: 25%;
+    padding: 30px;
     margin-left: 50px;
+}
+
+.text-section h2{
+    font-size: 35px;
+    padding-bottom: 20px;
 }
 
 .gray-bg{
