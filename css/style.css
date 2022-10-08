@@ -5,11 +5,16 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
     /* debug */
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 ul li{
@@ -22,6 +27,9 @@ a{
 
 /* regole header */
 header{
+    color: white;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
     /* debug */
     min-height: 500px;
     background-color: cornflowerblue;
@@ -33,36 +41,66 @@ nav{
 
 nav div{
     /* debug */
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .top-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* debug */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .flex-nav{
+    height: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .flex-nav li{
-    padding: 0 5px;
+    padding: 0 20px;
+}
+
+.white-btn{
+    color: black;
+    background-color: white;
+    border: white;
+    border-radius: 30px;
+    padding: 5px 10px;
 }
 
 .sub-header{
     width: 60%;
     margin: 100px auto;
     /* debug */
-    background-color: coral;
+    /* background-color: coral; */
 }
 
 .sub-header{
     text-align: center;
 }
 
+.sub-header h1{
+    font-size: 40px;
+    padding: 30px;
+}
+
+.sub-header p{
+    font-size: 17px;
+}
+.download{
+    padding: 30px 0;
+}
+
+.black-btn{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
 /* regole sections */
 
 section{
